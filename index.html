@@ -65,7 +65,9 @@ box-shadow:  20px 20px 60px #005563,
       /* 9abil lil mas7 */
 
         
-        
+        body{
+          zoom: 100%;
+        }
 
 
 
@@ -439,11 +441,10 @@ box-shadow:  50px 50px 100px #313131,
 </script>
 <script>
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-  
+  document.body.style.zoom = "100%";
 }else{
   document.body.style.zoom = "100%";
 }
- 
 
 </script>
 </body>
