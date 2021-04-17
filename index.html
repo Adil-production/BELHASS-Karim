@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="icon.png" />
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        *{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .btn-nav{
+           transform: translateY(-10%);
+           border-radius: 50px;
+           padding: 10px;
+           border: solid 0px black;
+           border-radius: 50px;
+           background: rgb(255,255,255);
+           border-radius: 50px;
+background: #c49d31;
+box-shadow:  20px 20px 60px #a7852a,
+             -20px -20px 60px #e1b538;
+             color: white;
+             margin: 20px;
+             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #icon{
+            transform: translateY(20%);
+            
+            
+        }
+        #nav{
+            border-radius: 0px;
+            position : fixed;
+            width: 100.7%;
+            height: 8%;
+            margin: -0.4%;
+            border-radius: 50px;
+background: #006475;
+box-shadow:  20px 20px 60px #005563,
+             -20px -20px 60px #007387;
+             z-index: 2;
+            
+        }
+        .typewrite{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        @media (max-width: 1000px ){
+            
+        #nav{
+            height: 19%;
+        }
+
+            
+
+        }
+        @media (max-height: 800px) {
+            #nav{
+            height: 19%;
+            
+        }
+        }
+ 
+       
+        #video{
+            width: 360px;
+            height: 115px;
+        }
+        iframe{
+            width: 400px;
+            height: 250px;
+        }
+        .btn{
+            width: 300px;
+            height: 300px;
+            border: solid black 0px;
+            border-radius: 50px;
+background: #7a7a7a;
+box-shadow:  50px 50px 100px #313131,
+             -50px -50px 100px #c3c3c3;
+             color : white;
+             margin : 20px;
+             transition: 0.4s;
+        }
+        #iphones,#samsung,#huwei,#infinix{
+            background: rgb(224, 224, 224);
+            width: 100%;
+            margin : 0%;
+        }
+        #design-phone{
+            z-index: 1;
+        }
+        .btn:hover{
+            transform: scale(1.1,1.1);
+            transition: 0.4s;
+        }
+        #iphone-status,#samsung-status{
+            display: block;
+        }
+        #tal-iphone,#tal-samsung,#tal-huwei,#tal-infinix{
+            display: none;
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELHASS Karim</title>
+</head>
+<body>
+    <div id="nav" align="center">
+        
+        
+
+        <a href="#iphones"><button class="btn-nav">Iphone</button></a>
+        <a href="#samsung"><button class="btn-nav">Samsung</button></a>
+        <a href="#huwei"><button class="btn-nav">Huwei</button></a>
+        <a href="#infinix"><button class="btn-nav">Infinix</button></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div align="center">
+        
+    <h1>
+        <a class="typewrite" data-period="3000" data-type='[ "BELHASS Karim.", "بلحاس كريم", "BELHASS Karim.", "بلحاس كريم" ] '>
+            
+          <span class="wrap"></span>
+        </a>
+      </h1>
+      <div id="design-phone" align="center">
+      
+      <img src="icon.png" width="300" height="300" id="icon"  />
+      <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ilQKSeH-rtE?start" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br>
+      <br>
+      <br>
+      <hr width="50%">
+      <br>
+      <br>
+      <br>
+      
+      <div id="iphones">
+          <br>
+          <br>
+          <h2>Iphone</h2>
+          <br>
+          <br>
+      <a href="#repeat-iphone"><button class="btn" onclick="iphone()"><img src="iphone\iphone x.png" width="200px" height="200px" ><br><br><br>Iphone X</button></a>
+      <a href="#repeat-iphone"><button class="btn" onclick="iphone()"><img src="iphone\iphone 11.png" width="200px" height="200px" > <br> <br> <br> Iphone 11</button></a>
+      <a href="#repeat-iphone"><button class="btn" onclick="iphone()"><img src="iphone\iphone 12.png" width="200px" height="200px" > <br> <br> <br> Iphone 12</button></a>
+      <button class="btn" onclick="iphone()" id="repeat-iphone"><img src="repeat.png" width="200px" height="200px"> <br> <br> <br> هاتف اخر</button>
+      <script>
+          function iphone(){
+            document.getElementById("tal-iphone").style.display = "block";
+          }
+      </script>
+      <br>
+      <br>
+      <br>
+      <div id="tal-iphone">
+        <form action="https://formspree.io/f/xdoykeak" method="POST" id="iphone">
+        <label>
+          Ton email:
+          <br>
+          <input type="email" name="email">
+        </label>
+        <br>
+        <label>
+            Ton nom:
+            <br>
+            <input type="text" name="nom">
+          </label>
+        <br>
+        <label>
+            Que veux-tu acheter:
+          <br>
+          <input name="telephone"></input>
+        </label>
+        <br>
+        <!-- your other form fields go here -->
+        <br>
+        <button type="submit" class="btn-nav">envoyer</button>
+      </form>
+      </div>
+      <h1 id="iphone-status"></h1>
+    </div>
+    </div>
+    </div>
+
+
+
+
+<!--                      ---                              -->
+        <br>
+      <br>
+      <br>
+      <div id="samsung" align="center">
+          <br>
+          <br>
+          <h2>Samsung</h2>
+          <br>
+          <br>
+      <a href="#repeat-samsung"><button class="btn" onclick="samsung()"><img src="samsung\A10.png" width="140px" height="200px" ><br><br><br>A10</button></a>
+      <a href="#repeat-samsung"><button class="btn" onclick="samsung()"><img src="samsung\A20.png" width="140px" height="200px" > <br> <br> <br> A20</button></a>
+      <a href="#repeat-samsung"><button class="btn" onclick="samsung()"><img src="samsung\A50.png" width="140px" height="205px" > <br> <br> <br> A50</button></a>
+      <button class="btn" id="repeat-samsung" onclick="samsung()"><img src="repeat.png" width="200px" height="200px"> <br> <br> <br> هاتف اخر</button>
+      <script>
+          function samsung(){
+            document.getElementById("tal-samsung").style.display = "block";
+          }
+      </script>
+      <br>
+      <br>
+      <br>
+      <div id="tal-samsung">
+        <form action="https://formspree.io/f/meqvoael" method="POST" id="samsung">
+        <label>
+          Ton email:
+          <br>
+          <input type="email" name="email">
+        </label>
+        <br>
+        <label>
+            Ton nom:
+            <br>
+            <input type="text" name="nom">
+          </label>
+        <br>
+        <label>
+            Que veux-tu acheter:
+          <br>
+          <input name="telephone"></input>
+        </label>
+        <br>
+        <!-- your other form fields go here -->
+        <br>
+        <button type="submit" class="btn-nav">envoyer</button>
+      </form>
+      </div>
+      <h1 id="samsung-status"></h1>
+    </div>
+    </div>
+    </div>
+
+<!--                      ---                              -->
+<br>
+<br>
+<br>
+<div id="huwei" align="center">
+    <br>
+    <br>
+    <h2>Huawei</h2>
+    <br>
+    <br>
+<a href="#repeat-huwei"><button class="btn" onclick="huwei()"><img src="huwei/Y6.png" width="160px" height="200px" ><br><br><br>Y6</button></a>
+<a href="#repeat-huwei"><button class="btn" onclick="huwei()"><img src="huwei/Y7.png" width="190px" height="200px" > <br> <br> <br> Y7</button></a>
+<a href="#repeat-huwei"><button class="btn" onclick="huwei()"><img src="huwei/Y9.png" width="190px" height="205px" > <br> <br> <br> Y9</button></a>
+<button class="btn" onclick="huwei()" id="repeat-huwei"><img src="repeat.png" width="200px" height="200px"> <br> <br> <br> هاتف اخر</button>
+<script>
+    function huwei(){
+      document.getElementById("tal-huwei").style.display = "block";
+    }
+</script>
+<br>
+<br>
+<br>
+<div id="tal-huwei">
+  <form action="https://formspree.io/f/mgervaop" method="POST" id="huwei">
+  <label>
+    Ton email:
+    <br>
+    <input type="email" name="email">
+  </label>
+  <br>
+  <label>
+      Ton nom:
+      <br>
+      <input type="text" name="nom">
+    </label>
+  <br>
+  <label>
+    Que veux-tu acheter:
+    <br>
+    <input name="telephone"></input>
+  </label>
+  <br>
+  <!-- your other form fields go here -->
+  <br>
+  <button type="submit" class="btn-nav">envoyer</button>
+</form>
+</div>
+<h1 id="huwei-status"></h1>
+</div>
+</div>
+    <!--                      ---                              -->
+<br>
+<br>
+<br>
+<div id="infinix" align="center">
+    <br>
+    <br>
+    <h2>infinix</h2>
+    <br>
+    <br>
+<a href="#repeat-infinix"><button class="btn" onclick="infinix()"><img src="infinix/HOT8.png" width="110px" height="190px" ><br><br><br>HOT 8</button></a>
+<a href="#repeat-infinix"><button class="btn" onclick="infinix()"><img src="infinix/HOT9.png" width="190px" height="200px" > <br> <br> <br> HOT9</button></a>
+<a href="#repeat-infinix"><button class="btn" onclick="infinix()"><img src="infinix/HOT10.png" width="190px" height="205px" > <br> <br> <br> HOT 10</button></a>
+<a href="#tal-infinix"><button class="btn" onclick="infinix()" id="repeat-infinix"><img src="repeat.png" width="200px" height="200px"> <br> <br> <br> هاتف اخر</button></a>
+<script>
+    function infinix(){
+      document.getElementById("tal-infinix").style.display = "block";
+    }
+</script>
+<br>
+<br>
+<br>
+<div id="tal-infinix">
+  <form action="https://formspree.io/f/mnqlnppa" method="POST" id="infinix">
+  <label>
+    Ton email:
+    <br>
+    <input type="email" name="email">
+  </label>
+  <br>
+  <label>
+      Ton nom:
+      <br>
+      <input type="text" name="nom">
+    </label>
+  <br>
+  <label>
+    Que veux-tu acheter:
+    <br>
+    <input name="telephone"></input>
+  </label>
+  <br>
+  <!-- your other form fields go here -->
+  <br>
+  <button type="submit" class="btn-nav">envoyer</button>
+</form>
+</div>
+
+</div>
+</div>
+<script>
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000}";
+        document.body.appendChild(css);
+    };
+
+
+
+</script>
+</body>
+</html>
